@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Numberholic — Math Brain Game</title>
+  <meta name="description" content="Numberholic is a fast-paced math arcade game. Solve falling equations, build combos, and train your brain across 6 worlds." />
+  <style>
+    :root {
+      --bg1: #0a0916;
+      --bg2: #2a1b54;
+      --accent: #b86bff;
+      --accent2: #4fd6e0;
+      --text: #f2f0ff;
+      --muted: #b9b4d6;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(160deg, var(--bg1), var(--bg2));
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 80px; }
+    header { text-align: center; margin-bottom: 56px; }
+    .logo {
+      width: 96px; height: 96px; border-radius: 24px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 48px; font-weight: 800; color: #fff;
+      box-shadow: 0 12px 40px rgba(184,107,255,0.4);
+      margin-bottom: 24px;
+    }
+    h1 { font-size: 40px; font-weight: 800; letter-spacing: -0.5px; }
+    .tagline { color: var(--muted); font-size: 18px; margin-top: 8px; }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px; padding: 32px; margin-bottom: 24px;
+    }
+    h2 { font-size: 24px; margin-bottom: 12px; }
+    p { color: var(--muted); margin-bottom: 12px; }
+    a { color: var(--accent2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .email {
+      display: inline-block; margin-top: 8px; font-size: 18px;
+      font-weight: 600; color: var(--text);
+    }
+    .features { list-style: none; }
+    .features li { color: var(--muted); margin-bottom: 8px; padding-left: 28px; position: relative; }
+    .features li::before { content: "✦"; position: absolute; left: 0; color: var(--accent); }
+    footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 48px; }
+    .btn {
+      display: inline-block; margin-top: 16px; padding: 12px 28px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff; border-radius: 999px; font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">N</div>
+      <h1>Numberholic</h1>
+      <p class="tagline">Fast math. Sharp mind. Solve the falling numbers.</p>
+    </header>
+
+    <div class="card">
+      <h2>About the game</h2>
+      <p>Numberholic is a fast-paced math arcade game that turns mental math into pure fun. Numbers fall from the sky — solve each equation before it reaches the bottom. Build combos, beat your high score, and climb through 6 unique worlds.</p>
+      <ul class="features">
+        <li>6 colorful worlds, from simple addition to powers &amp; percentages</li>
+        <li>Combo multipliers and satisfying score popups</li>
+        <li>Daily bonus rewards and high-score tracking</li>
+        <li>Quick sessions — a perfect brain workout</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Support &amp; Contact</h2>
+      <p>Have a question, found a bug, or want to share feedback? We'd love to hear from you.</p>
+      <a class="email" href="mailto:karineshegunts0@gmail.com">karineshegunts0@gmail.com</a>
+    </div>
+
+    <div class="card">
+      <h2>Privacy</h2>
+      <p>We respect your privacy. Read how Numberholic handles data:</p>
+      <a class="btn" href="privacy.html">Privacy Policy</a>
+    </div>
+
+    <footer>
+      © 2026 Numberholic. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
